@@ -2,42 +2,45 @@ package controlador;
 
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+        
+public class ControladorWindowsCalculo implements WindowListener{
 
-public class ControladorWindowsCalculo implements WindowListener {
-
-    @Override
-    public void windowOpened(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public ControladorWindowsCalculo() {
     }
 
     @Override
-    public void windowClosing(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowOpened(WindowEvent we) {
+    
     }
 
     @Override
-    public void windowClosed(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowClosing(WindowEvent we) {
+    
     }
 
     @Override
-    public void windowIconified(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowClosed(WindowEvent we) {
+    
     }
 
     @Override
-    public void windowDeiconified(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowIconified(WindowEvent we) {
+    
     }
 
     @Override
-    public void windowActivated(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowDeiconified(WindowEvent we) {
+    
     }
 
     @Override
-    public void windowDeactivated(WindowEvent e) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void windowActivated(WindowEvent we) {
+    
+    }
+
+    @Override
+    public void windowDeactivated(WindowEvent we) {
+    
     }
     
 }
