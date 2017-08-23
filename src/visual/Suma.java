@@ -2,7 +2,6 @@ package visual;
 
 import controlador.ControladorAceptar;
 import controlador.ControladorLimpiar;
-import controlador.ControladorWindowsCalculo;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.awt.event.MouseListener;
@@ -23,7 +22,6 @@ public class Suma extends JFrame{
     private GridLayout contenedor = new GridLayout(5,2);
     private ControladorAceptar controladorAceptar = new ControladorAceptar(txtpalabraUno, txtpalabraDos, txtresultado);
     private ControladorLimpiar controladorLimpiar = new ControladorLimpiar(txtpalabraUno, txtpalabraDos, txtresultado);
-    private ControladorWindowsCalculo controladorWindowsCalculo = new ControladorWindowsCalculo();
     
 public Suma(){
     this.setLayout(contenedor);
